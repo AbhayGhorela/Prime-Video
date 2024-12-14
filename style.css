@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#nav {
+    background-color: #00050D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100vw;
+    gap: 65px;
+    color: #fff;
+    position: relative;
+}
+
+#nav #brand {
+    height: 18px;
+    width: 96px;
+}
+
+#nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #BABCBE;
+}
+
+#profile #search-btn {
+    background-color: transparent;
+    border: none;
+}
+
+#profile #search-btn i {
+    font-size: 23px;
+    color: #fff;
+}
+
+#profile img {
+    height: 45px;
+    width: 45px;
+}
+
+#nav #home-hover{
+    position: absolute;
+    background-color: #191E25;
+    top:20%;
+    left: 20%;
+}
+
+#main {
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+}
+
+#page1 {
+    background: url("https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg");
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+#page1 #page1-content {
+    padding: 50px;
+    color: #fff;
+}
+
+#page1 h1, #page2 h1 {
+    font-size: 40px;
+    font-weight: 500;
+    width: 50%;
+}
+
+#page1 p, #page2 p {
+    font-size: 20px;
+    font-weight: 500;
+    width: 50%;
+    margin-top: 20px;
+}
+
+#page1 a, #page2 a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #0F79AF;
+    padding: 15px 60px;
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+#page1 #home-hover{
+    position: absolute;
+    background-color: #191E25;
+    top: 11%;
+    left: 29%;
+    color: #BABCBE;
+    padding: 10px;
+    line-height: 50px;
+    border-radius: 0 0 10px 10px;
+    display: none;
+}
+
+#page2 {
+    background: url("https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Right.jpg");
+    height: 65vh;
+    width: 100%;
+    background-size: cover;
+}
+
+#page2 #page2-content {
+    padding: 50px;
+    color: #fff;
+}
+
+#page3 {
+    height: fit-content;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    padding: 40px;
+}
+
+#text,#images{
+    width: 50%;
+}
+
+#page3 .ch-img {
+    height: 153px;
+    width: 221px;
+}
+
+#page3 .ch-img:hover {
+    box-shadow: 1px 1px 10px #000;
+}
+
+#page3 h3 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#page3 #text p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    margin-top: 40px;
+}
+
+#page3 #images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(4, auto); /* 4 rows */
+    gap: 10px;
+}
+
+
+footer{
+    width: 100%;
+    height: 22%;
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+footer img{
+    width: 108px;
+    height: 32px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    color: #90DFFE;
+    gap: 15px;
+    margin-top: 16px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+footer p{
+    color: #8197A4;
+    margin-top: 16px;
+    font-size: 15px;
+    font-weight: 500;
+}
